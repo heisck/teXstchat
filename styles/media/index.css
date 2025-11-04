@@ -5,8 +5,8 @@
 
   #contact-cont {
     min-width: 100%;
-    display: none;
-    border: block;
+    display: block;
+    border: none;
   }
 
   .contact-card {
@@ -28,4 +28,5 @@
     font-size: 80%;
   }
 }
+
 
