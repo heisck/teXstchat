@@ -1,12 +1,12 @@
 @media (max-width: 600px) {
   #message-cont {
-    display: block;
+    display: none;
   }
 
   #contact-cont {
     min-width: 100%;
     display: none;
-    border: none;
+    border: block;
   }
 
   .contact-card {
@@ -28,3 +28,4 @@
     font-size: 80%;
   }
 }
+
