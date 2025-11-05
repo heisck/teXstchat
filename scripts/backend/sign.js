@@ -1,5 +1,5 @@
 async function signup(givenName, email, username, password) {
-  const req = await fetch('http://127.0.0.1:5405/auth/register', {
+  const req = await fetch('https://orange-animals-battle.loca.lt/auth/register', {
     method: "post",
     headers: {
       "content-type": "application/json"
@@ -19,7 +19,7 @@ async function signup(givenName, email, username, password) {
 }
 
 async function signin(username, password) {
-  const req = await fetch('http://127.0.0.1:5405', {
+  const req = await fetch('https://orange-animals-battle.loca.lt', {
     method: "post",
     headers: {
       "content-type": "application/json"
@@ -78,5 +78,6 @@ function saveToLocalstorage(token) {
     window.location = '../index.html';
   };
 }
+
 
 sendInfo();
