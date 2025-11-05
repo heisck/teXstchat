@@ -1,0 +1,7 @@
+
+@media (max-width: 630px) {
+  #auth-area {
+    flex-shrink: 0;
+    width: 15rem;
+  }
+}

@@ -1,0 +1,28 @@
+@media (max-width: 600px) {
+  #message-cont {
+    display: none;
+  }
+
+  #contact-cont {
+    min-width: 100%;
+    display: block;
+    border: none;
+  }
+
+  .contact-card {
+    padding: 1rem;
+  }
+
+  .input-section {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
+  }
+
+  .message-sect {
+    padding-bottom: 3rem;
+  }
+
+}
