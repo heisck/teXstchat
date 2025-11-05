@@ -1,6 +1,6 @@
 async function sendToken() {
   const token = localStorage.getItem('token');
-  const req = await fetch('http://127.0.0.1:5405', {
+  const req = await fetch('https://orange-animals-battle.loca.lt', {
     headers: {
       "authorization": token
     }
@@ -10,5 +10,6 @@ async function sendToken() {
     window.location = 'pages/signup.html'
   }
 }
+
 
 export default sendToken;
